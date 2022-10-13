@@ -52,7 +52,7 @@
 // let { Name, age, gender } = profile;
 //  console.log(Name);
 //  console.log(age);
-//  console.log(gender);
+//   console.log(gender);
 // // Promise
 
 // const person=true;
@@ -71,7 +71,7 @@
 //     console.log("then"+message);
 // })
 
-// // template littrature
+// template littrature
 
 // var name1="mani";
 // var name2="B.SC";
@@ -85,30 +85,48 @@
 
 
 // async&& await function//
-function s(b){
-    return new Promise((res,rej)=>{
-setTimeout(()=>{
-    res()
-    console.log(b)
-},2000)
+// function s(b){
+//     return new Promise((res,rej)=>{
+// setTimeout(()=>{
+//     res()
+//     console.log(b)
+// },2000)
    
-    })
+//     })
     
-}
-function a(){
-    return new Promise((res,rej)=>{
-        res()
-        console.log("jk")
-    })
-}
-async function sum(){
-    try{
+// }
+// function a(){
+//     return new Promise((res,rej)=>{
+//         res()
+//         console.log("hello")
+//     })
+// }
+// async function sum(){
+//     try{
        
-        await s(10)
-        await a();
-    }
-    catch{console.log("error");}
+//         await s(10)
+//         await a();
+//     }
+//     catch{console.log("error");}
     
    
-}
-sum()
+// }
+// 
+
+
+
+
+
+// const module = {
+//     x: 42,
+//     getX: function() {
+//       return this.x;
+//     }
+//   };
+  
+//   const unboundGetX = module.getX;
+//   console.log(unboundGetX()); // The function gets invoked at the global scope
+//   // expected output: undefined
+  
+//   const boundGetX = unboundGetX.bind(module);
+//   console.log(boundGetX());
